@@ -11,5 +11,5 @@ A dictionary app named KamusDB SQL was developed for my bachelor's degree final 
 Check out the application <a href="https://youtu.be/_wuJfxvm6e8">demo</a>!
 
 <br> 
-KamusDB SQL are available at Playstore! Install in <a href="https://play.google.com/store/apps/details?id=com.alfiyah.dictionaryapps">here</a>!
+KamusDB SQL are available at Playstore, install it <a href="https://play.google.com/store/apps/details?id=com.alfiyah.dictionaryapps">here</a>!
 
