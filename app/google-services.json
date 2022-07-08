@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "271543684291",
+    "project_id": "ccdictionary-fec54",
+    "storage_bucket": "ccdictionary-fec54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:271543684291:android:534b47704fdb87e7712676",
+        "android_client_info": {
+          "package_name": "com.alfiyah.dictionaryapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "271543684291-dj8qj0cldpphetorsn1pkbu249a0tnm9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1Z9QYca7qPXxO4xAFsc0l2UyhmxVMZLs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "271543684291-dj8qj0cldpphetorsn1pkbu249a0tnm9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

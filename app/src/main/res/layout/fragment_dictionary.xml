@@ -1,0 +1,59 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".DictionaryFragment">
+
+    <View
+        android:id="@+id/bg_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/bg_view"
+        app:layout_constraintBottom_toTopOf="@id/rv_word"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="48sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginStart="18sp"
+        android:layout_marginEnd="18sp"
+        android:padding="12sp"
+        android:textSize="15sp"
+        android:background="@drawable/bg_search"
+        android:hint="Search Word..."
+        android:inputType="text"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/no_result"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_marginStart="18sp"
+        android:layout_marginEnd="18sp"
+        android:layout_marginTop="45sp"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/search"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_word"
+        android:layout_marginStart="18sp"
+        android:layout_marginEnd="18sp"
+        android:layout_marginTop="30sp"
+        android:paddingBottom="45sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/word_item"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/search" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

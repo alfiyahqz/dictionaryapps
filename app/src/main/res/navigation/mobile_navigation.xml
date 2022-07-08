@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_dict">
+
+    <fragment
+        android:id="@+id/nav_dict"
+        android:name="com.alfiyah.dictionaryapps.DictionaryFragment"
+        android:label="Dictionary"
+        tools:layout="@layout/fragment_dictionary"
+        />
+
+    <fragment
+        android:id="@+id/nav_bookmarks"
+        android:name="com.alfiyah.dictionaryapps.bookmark.BookmarksFragment"
+        android:label="Bookmarks"
+        tools:layout="@layout/fragment_bookmarks"
+        />
+
+    <fragment
+        android:id="@+id/nav_req"
+        android:name="com.alfiyah.dictionaryapps.RequestFragment"
+        android:label="Request and Suggestion"
+        tools:layout="@layout/fragment_request"
+        />
+
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="com.alfiyah.dictionaryapps.HelpFragment"
+        android:label="Help"
+        tools:layout="@layout/fragment_help"
+        />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.alfiyah.dictionaryapps.AboutFragment"
+        android:label="About"
+        tools:layout="@layout/fragment_about"
+        />
+
+</navigation>

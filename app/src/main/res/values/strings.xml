@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">KamusDB SQL</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="nada">Alfiyah Qothrunnada Zulfa</string>
+    <string name="made_by">Made by</string>
+    <string name="desc_app">Aplikasi kamus istilah basis data dan perintah SQL yang berasal dari referensi pilihan terpercaya.</string>
+    <string name="term">lorem ipsum</string>
+    <string name="word">Word</string>
+    <string name="hi">Hi!</string>
+    <string name="pendahuluan">Sesuatu mungkin telah terjadi sehingga anda ada di halaman ini. Apakah ada yang bisa dibantu?</string>
+    <string name="format1">Saya tidak menemukan istilah maupun perintah SQL yang saya cari.</string>
+    <string name="format2">Saya menemukan definisi istilah atau perintah SQL yang lebih efektif.</string>
+    <string name="format3">Ada definisi yang salah pada salah satu istilah atau perintah SQL.</string>
+    <string name="format4">Ada hal lain yang ingin saya bicarakan dengan KamusDB-SQL.</string>
+    <string name="penutup">Pilihan diatas akan membuka aplikasi E-mail dengan admin KamusDB-SQL sebagai penerima. Informasi E-mail yang anda gunakan tetap aman dan tidak akan digunakan untuk alasan apapun. Terima kasih atas kontribusi kalian!</string>
+    <string name="created_by">Created by</string>
+</resources>
