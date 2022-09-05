@@ -1,5 +1,5 @@
 # dictionaryapps
-A dictionary app named KamusDB SQL was developed for my bachelor's degree final project. KamusDB SQL is a digital dictionary consisting terms related to database and SQL commands. <br>
+A dictionary app named KamusDB SQL was developed for my final project. KamusDB SQL is a digital dictionary consisting terms related to database and SQL commands. <br>
 <br>
 <img src="https://github.com/alfiyahqz/dictionaryapps/blob/master/documentation/ss1.png" width = "200">
 <img src="https://github.com/alfiyahqz/dictionaryapps/blob/master/documentation/ss2.png" width = "200">
